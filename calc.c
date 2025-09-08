@@ -2,7 +2,7 @@
 #include <stdbool.h>
 int main (){
 
-printf("\nSimple Calculator\n");
+printf("\n====Simple Calculator====\n");
 printf("\nOPERATIONS\n");
 printf("\n1. Addition (+)");
 printf("\n2. Subtraction (-)");
