@@ -1,6 +1,15 @@
 #include <stdio.h>
 int main (){
-    printf("Simple Calculator");
+
+printf("\nSimple Calculator\n");
+printf("\nOPERATIONS\n");
+printf("\n1. Addition (+)");
+printf("\n2. Subtraction (-)");
+printf("\n3. Multiplication (*)");
+printf("\n4. Division  (/)");
+printf("\n5. Modulus (%)");
+
+    
     char operator;
     double num1, num2;
 
@@ -38,7 +47,12 @@ int main (){
             break;
 
         // operator doesn't match any case constant +, -, *, /
-        default:
+        default:            printf("Error! operator is not correct");
+    }
+    return 0;
+}
+
+            
             printf("Error! operator is not correct");
     }
     return 0;
