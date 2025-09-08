@@ -3,6 +3,15 @@
 //#include "calculator.c"
 
 int main (){
+printf("\nSimple Calculator\n");
+printf("\nOPERATIONS\n");
+printf("\n1. Addition (+)");
+printf("\n2. Subtraction (-)");
+printf("\n3. Multiplication (*)");
+printf("\n4. Division  (/)");
+printf("\n5. Modulus (%)\n");
+printf("\nThis calculator accomplishes all operations ['+', '-', '*', '/', '%']");
+    
 
     int num1, num2;
 
