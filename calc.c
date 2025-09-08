@@ -45,14 +45,13 @@ printf("\n5. Modulus (%)");
             result = num1 / num2;
             printf("The operation %.1lf / %.1lf = %.3lf", num1, num2, result);
             break;
+        case '%':
+            result = (int)num1 % (int)num2;
+            printf("The operation %.1lf %% %.1lf = %.3lf", num1, num2, result);
+            break;
 
         // operator doesn't match any case constant +, -, *, /
-        default:            printf("Error! operator is not correct");
-    }
-    return 0;
-}
-
-            
+        default:
             printf("Error! operator is not correct");
     }
     return 0;
