@@ -54,5 +54,6 @@ printf("\n5. Modulus (%)");
         default:
             printf("Error! operator is not correct");
     }
+    printf("\nThank you for colaboraating with BCS_GRP_6\n");
     return 0;
 }
