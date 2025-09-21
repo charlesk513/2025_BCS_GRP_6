@@ -1,5 +1,12 @@
 #include <stdio.h>
 #include <stdbool.h>
+
+char operator;
+double number1, number2;
+int first = 1;
+double result;
+int choice;
+
 int main()
 {
     printf("\n====Simple Calculator====\n");
@@ -10,11 +17,6 @@ int main()
     printf("\n4. Division  (/)");
     printf("\n5. Modulus (%)");
 
-    char operator;
-    double number1, number2;
-    int first = 1;
-    double result;
-    int choice;
     do
     {
         if (first)
