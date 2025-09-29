@@ -21,11 +21,21 @@ int main()
             scanf("%s", &operator);
 
             printf("\nEnter the first number; ");
-            scanf("%f", &num1);
-
+            if (scanf("%f", &num1) != 1){
+                //skips the invalid number entered
+                printf("Invalid input, value entered not a number");
+                //Breaks the loop and restarts it
+                while (getchar() != '\n')
+                    continue;
+            }
             printf("\nEnter the second number; ");
-            scanf("%f", &num2);
-        }
+            if (scanf("%f", &num2) != 1){
+                //skips the invalid number entered
+                printf("Invalid input, value entered not a number");
+                //Breaks the loop and restarts it
+                while (getchar() != '\n')
+                    continue;
+            }
         else
         {
             num1 = result;
@@ -34,7 +44,13 @@ int main()
             scanf("%s", &operator);
 
             printf("\nEnter the number; ");
-            scanf("%f", &num2);
+            if (scanf("%f", &num2) != 1)
+            {
+                //skips the invalid number entered
+                printf("Invalid input, value entered not a number");
+                //Breaks the loop and restarts it
+                while (getchar() != '\n')
+                    continue;  
         }
         switch (operator)
         {
