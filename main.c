@@ -20,6 +20,17 @@ int main()
         {
             printf("\nEnter the operator among ['+', '-', '*', '/', '%']: ");
             scanf("%s", &operator);
+            if (operator == '+' || operator == '-' || operator == '*' || operator == '/' || operator == '%')
+            {
+                // valid operator, do nothing and continue
+            }
+            else
+            {
+                printf("Sythax error, value entered not an operator\n");
+                while (getchar() != '\n')
+                    ;
+                continue; // restart the loop
+            }
 
             printf("\nEnter the first number; ");
             if (scanf("%f", &num1) != 1)
@@ -45,6 +56,17 @@ int main()
             printf("\nThe stored value is %.3f\n", num1);
             printf("\nEnter the operator among ['+', '-', '*', '/', '%']: ");
             scanf("%s", &operator);
+            if (operator == '+' || operator == '-' || operator == '*' || operator == '/' || operator == '%')
+            {
+                // valid operator, do nothing and continue
+            }
+            else
+            {
+                printf("Sythax error, value entered not an operator\n");
+                while (getchar() != '\n')
+                    ;
+                continue; // restart the loop
+            }
 
             printf("\nEnter the number; ");
             if (scanf("%f", &num2) != 1)
