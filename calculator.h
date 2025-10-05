@@ -4,7 +4,6 @@
 char operator;
 float num1, num2;
 int permission = 1;
-float result;
 int choice;
 
 float sum(float num1, float num2);
