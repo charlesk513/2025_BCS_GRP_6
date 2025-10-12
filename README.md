@@ -14,6 +14,6 @@ Kebirungi Patricia    2025/BCS/091/PS              Member
 Aijuka David          2025/BCS/016/PS              Member
 Ampwera Javan         2025/BCS/079/PS              Member
 Kanyesigye Joshua     2025/BCS/195/PS              Member
-Ayebare Ronah         2025/BCS/058/PS              Member
+Ayebale Ronah         2025/BCS/058/PS              Member
 Atuheire Edwin        2025/BCS/212/PS              Member
 Ainomugisha Ronald    2025/BCS/021/PS              Member
