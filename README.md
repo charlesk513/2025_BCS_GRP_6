@@ -1,4 +1,4 @@
-# 2025_BCS_GRP_6https://meet.google.com/igh-vwqg-kdj
+# 2025_BCS_GRP_6
 This is a class group project repo for learning concepts on principles of programming in C/C++.
 This calculator is convinient and paramount.
 It possesses five operators i.e, addition, subtraction, division, multiplication and modulus. 
